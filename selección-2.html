@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Virtual</title>
+    <link rel="stylesheet" href="selección-2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/feather-icons/dist/feather.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <header class="header" id="head">
+        
+         <div class="menu container" id="mennu">
+         <!--   <a href="#" class="logo">logo</a>  -->
+             <div id="izquierda">
+                <i data-feather="menu" class="toggle" id="toggle-menu"></i>
+                <nav class="nav" id="nav-menu">
+                    <i data-feather ="x" class="close" id="close-menu"></i>
+                    <ul class="nav_list">
+                        <li class="nav_item"><a href="" class="nav_link nuevo">LO NUEVO</a></li>
+                        <li class="nav_item"><a href="hombre.html" class="nav_link">Hombre</a></li>
+                        <li class="nav_item"><a href="mujer.html" class="nav_link">Mujer</a></li>
+                        <li class="nav_item"><a href="regalo.html" class="nav_link">Regalos</a></li>
+                        <li class="nav_item"><a href="oferta.html" class="nav_link">OFERTAS</a></li>
+                    </ul>
+                </nav>
+            
+
+                <div id="ctn-icon-search">
+                <!--  <img src="/images/busqueda.svg" class="busqueda" id="icon-search" alt=""> -->
+                  <i data-feather="search" class="buscar" id="icon-searchs"></i> 
+                </div>
+                <span class="menu-text" id="text">Buscar</span> 
+
+            
+            </div>
+            
+            
+            <div>
+				<a href="index.html" class ="main-header__title" >NAVARRO</a>                
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="hombre.html">Hombre</a></li>
+                        <li><a href="mujer.html">Mujer</a></li>
+                        <li><a href="regalo.html">Regalo</a></li>
+                        <li><a href="oferta.html">Oferta</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <i data-feather="shopping-cart" id="img-carrito"></i>
+                        <span id="contador-carrito">0</span>  <!--   .....         -->
+                        <div id="carrito">                            
+                             <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                       <th>Imagen</th>
+                                       <th>Nombre</th>
+                                       <th>Precio</th>
+                                       <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-2">Limpiar</a>
+                            <a href="#" class="btn-2">Comprar</a>
+                        </div>       
+                    </li>
+                </ul>
+            </div>       
+        </div>
+        <div class="overlay" id="overlay">
+        
+        </div>
+    </header>
+
+    <div id="ctn-bars-search">
+        <input type="text" id="inputSearch" placeholder="¿Que deseas buscar?">
+    </div>
+      <ul id="box-search">
+        <li><a href="busqueda-1.html"><i class="fa-solid fa-magnifying-glass"></i>chompas</a></li>
+        <li><a href="busqueda-2.html"><i class="fa-solid fa-magnifying-glass"></i>pantalon</a></li>
+        <li><a href="busqueda-3.html"><i class="fa-solid fa-magnifying-glass"></i>zapatillas</a></li>
+        <li><a href="busqueda-5.html"><i class="fa-solid fa-magnifying-glass"></i>camisas</a></li>
+        <li><a href="busqueda-4.html"><i class="fa-solid fa-magnifying-glass"></i>Polos</a></li>
+      </ul>
+    <div id="cover-ctn-search">
+    
+    </div>
+
+    <div class="container-title">chompas</div>
+
+		<div class="zapato">
+			<div class="container-img">
+				<img
+					src="https://images.unsplash.com/photo-1640786443594-408d1d5a6298?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+					alt="imagen-producto"
+				/>
+			</div>
+		</div>
+
+        <section class="container-related-products">
+			<h2>chompas: nuevo modelo exclusivo </h2>
+
+			<div class="card-list-products">
+				<div class="card">
+					<a href="selc2-prod2.html">
+					    <div class="card-img">
+					    	<img
+					    		src="https://images.unsplash.com/photo-1613117943919-d743b983c89b?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+					    		alt="producto-1"
+					    	/>
+					    </div>
+					    <div class="info-card">
+					    	<div class="text-product">
+					    		<h3>Nike - Roshe Run</h3>
+					    		<p class="category">Footwear, Sneakers</p>
+					    	</div>
+					    	<div class="price">$85.00</div>
+					    </div>
+				    </a>
+				</div>
+				<div class="card">
+					<a href="">
+					    <div class="card-img">
+					    	<img
+					    		src="https://images.unsplash.com/photo-1615332590669-d7ee38a8c3fa?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+					    		alt="producto-2"
+					    	/>
+					    </div>
+					    <div class="info-card">
+					    	<div class="text-product">
+					    		<h3>Common Projects Achilles</h3>
+					    		<p class="category">Footwear, Sneakers</p>
+					    	</div>
+					    	<div class="price">$255.00</div>
+					    </div>
+				    </a>
+				</div>
+				<div class="card">
+					<a href="">
+					    <div class="card-img">
+					    	<img
+					    		src="https://images.unsplash.com/photo-1543427127-c331ce4346b8?q=80&w=1586&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+					    		alt="producto-3"
+					    	/>
+					    </div>
+					    <div class="info-card">
+					    	<div class="text-product">
+					    		<h3>Adidas - Boston Super OG</h3>
+					    		<p class="category">Footwear, Sneakers</p>
+					    	</div>
+					    	<div class="price">$105.00</div>
+					    </div>
+				    </a>
+				</div>
+				<div class="card">
+					<a href="">
+					    <div class="card-img">
+					    	<img
+					    		src="https://images.unsplash.com/photo-1608975321561-176c1b187d24?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+					    		alt="producto-4"
+					    	/>
+					    </div>
+					    <div class="info-card">
+					    	<div class="text-product">
+					    		<h3>Common Projects Achilles</h3>
+					    		<p class="category">Footwear, Sneakers</p>
+					    	</div>
+					    	<div class="price">$250.00</div>
+					    </div>
+				    </a>
+				</div>
+				<div class="card">
+					<a href="">
+					    <div class="card-img">
+					    	<img
+					    		src="https://images.unsplash.com/photo-1598011235402-c1e7f1fd79cc?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+					    		alt="producto-4"
+					    	/>
+					    </div>
+					    <div class="info-card">
+					    	<div class="text-product">
+					    		<h3>Common Projects Achilles</h3>
+					    		<p class="category">Footwear, Sneakers</p>
+					    	</div>
+					    	<div class="price">$250.00</div>
+					    </div>
+				    </a>
+				</div>
+				<div class="card">
+					<a href="">
+					    <div class="card-img">
+					    	<img
+					    		src="https://images.unsplash.com/photo-1605000244537-193fb4fc91d1?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+					    		alt="producto-4"
+					    	/>
+					    </div>
+					    <div class="info-card">
+					    	<div class="text-product">
+					    		<h3>Common Projects Achilles</h3>
+					    		<p class="category">Footwear, Sneakers</p>
+					    	</div>
+					    	<div class="price">$250.00</div>
+					    </div>
+				    </a>
+				</div>
+				<div class="card">
+					<a href="">
+					    <div class="card-img">
+					    	<img
+					    		src="https://images.unsplash.com/photo-1531236977278-eefb3b924c5c?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+					    		alt="producto-4"
+					    	/>
+					    </div>
+					    <div class="info-card">
+					    	<div class="text-product">
+					    		<h3>Common Projects Achilles</h3>
+					    		<p class="category">Footwear, Sneakers</p>
+					    	</div>
+					    	<div class="price">$250.00</div>
+					    </div>
+				    </a>
+				</div>
+				<div class="card">
+					<a href="">
+					    <div class="card-img">
+					    	<img
+					    		src="https://images.unsplash.com/photo-1612629779374-a8432d338af5?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+					    		alt="producto-4"
+					    	/>
+					    </div>
+					    <div class="info-card">
+					    	<div class="text-product">
+					    		<h3>Common Projects Achilles</h3>
+					    		<p class="category">Footwear, Sneakers</p>
+					    	</div>
+					    	<div class="price">$250.00</div>
+					    </div>
+				    </a>
+				</div>
+				<div class="card">
+					<a href="">
+					    <div class="card-img">
+					    	<img
+					    		src="https://images.unsplash.com/photo-1542849862-fd7be66aa93a?q=80&w=1586&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+					    		alt="producto-4"
+					    	/>
+					    </div>
+					    <div class="info-card">
+					    	<div class="text-product">
+					    		<h3>Common Projects Achilles</h3>
+					    		<p class="category">Footwear, Sneakers</p>
+					    	</div>
+					    	<div class="price">$250.00</div>
+					    </div>
+				    </a>
+				</div>
+				<div class="card">
+					<a href="">
+					    <div class="card-img">
+					    	<img
+					    		src="https://images.unsplash.com/photo-1612307770126-f318cb35b542?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+					    		alt="producto-4"
+					    	/>
+					    </div>
+					    <div class="info-card">
+					    	<div class="text-product">
+					    		<h3>Common Projects Achilles</h3>
+					    		<p class="category">Footwear, Sneakers</p>
+					    	</div>
+					    	<div class="price">$250.00</div>
+					    </div>
+				    </a>
+				</div>
+				<div class="card">
+					<a href="">
+					    <div class="card-img">
+					    	<img
+					    		src="https://images.unsplash.com/photo-1619783181578-4b0e48431d8f?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+					    		alt="producto-4"
+					    	/>
+					    </div>
+					    <div class="info-card">
+					    	<div class="text-product">
+					    		<h3>Common Projects Achilles</h3>
+					    		<p class="category">Footwear, Sneakers</p>
+					    	</div>
+					    	<div class="price">$250.00</div>
+					    </div>
+				    </a>
+				</div>
+				<div class="card">
+					<a href="">
+					    <div class="card-img">
+					    	<img
+					    		src="https://images.unsplash.com/photo-1604573824419-289a9a10672c?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+					    		alt="producto-4"
+					    	/>
+					    </div>
+					    <div class="info-card">
+					    	<div class="text-product">
+					    		<h3>Common Projects Achilles</h3>
+					    		<p class="category">Footwear, Sneakers</p>
+					    	</div>
+					    	<div class="price">$250.00</div>
+					    </div>
+				    </a>
+				</div>
+				<div class="card">
+					<a href="">
+					    <div class="card-img">
+					    	<img
+					    		src="https://images.unsplash.com/photo-1613309972600-ea3e75f336ad?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+					    		alt="producto-4"
+					    	/>
+					    </div>
+					    <div class="info-card">
+					    	<div class="text-product">
+					    		<h3>Common Projects Achilles</h3>
+					    		<p class="category">Footwear, Sneakers</p>
+					    	</div>
+					    	<div class="price">$250.00</div>
+					    </div>
+				    </a>
+				</div>
+				<div class="card">
+					<a href="">
+					    <div class="card-img">
+					    	<img
+					    		src="https://images.unsplash.com/photo-1545064189-2d901f702a28?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+					    		alt="producto-4"
+					    	/>
+					    </div>
+					    <div class="info-card">
+					    	<div class="text-product">
+					    		<h3>Common Projects Achilles</h3>
+					    		<p class="category">Footwear, Sneakers</p>
+					    	</div>
+					    	<div class="price">$250.00</div>
+					    </div>
+				    </a>
+				</div>
+				<div class="card">
+					<a href="">
+					    <div class="card-img">
+					    	<img
+					    		src="https://images.unsplash.com/photo-1613590373588-e61986b98327?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+					    		alt="producto-4"
+					    	/>
+					    </div>
+					    <div class="info-card">
+					    	<div class="text-product">
+					    		<h3>Common Projects Achilles</h3>
+					    		<p class="category">Footwear, Sneakers</p>
+					    	</div>
+					    	<div class="price">$250.00</div>
+					    </div>
+				    </a>
+				</div>
+				<div class="card">
+					<a href="">
+					    <div class="card-img">
+					    	<img
+					    		src="https://images.unsplash.com/photo-1550263292-000a0d08ffa0?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+					    		alt="producto-4"
+					    	/>
+					    </div>
+					    <div class="info-card">
+					    	<div class="text-product">
+					    		<h3>Common Projects Achilles</h3>
+					    		<p class="category">Footwear, Sneakers</p>
+					    	</div>
+					    	<div class="price">$250.00</div>
+					    </div>
+				    </a>
+				</div>
+			</div> 
+		</section>
+
+        
+    <main class="products container" id="lista-1">
+
+        <div class="product-content">
+
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1609357605129-26f69add5d6e?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                <div class="product-text">
+                    <h3>Camisa</h3>
+                    <p>calidad primium</p>
+                    <p class="precio">s/ 200</p>
+                    <a href="#" class="agregar-carrito btn-2" date-ide ="1">agregar al carrito</a>
+                </div>
+            </div>
+
+			<div class="product">
+                <img src="https://images.unsplash.com/photo-1609357605129-26f69add5d6e?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                <div class="product-text">
+                    <h3>Camisa</h3>
+                    <p>calidad primium</p>
+                    <p class="precio">s/ 200</p>
+                    <a href="#" class="agregar-carrito btn-2" date-ide ="1">agregar al carrito</a>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+
+    <footer class="futer">
+        <div class="footer-col">
+            <h4>productos</h4>
+            <ul>
+                <li><a href="#">teams</a></li>
+                <li><a href="#">advertist</a></li>
+                <li><a href="#">talent</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>network</h4>
+            <ul>
+                <li><a href="#">technogy</a></li>
+                <li><a href="#">sciencie</a></li>
+                <li><a href="#">business</a></li>
+                <li><a href="#">profesional</a></li>
+                <li><a href="#">aplica</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>compañia</h4>
+            <ul>
+                <li><a href="#">about</a></li>
+                <li><a href="#">legal</a></li>
+                <li><a href="#">contactenos</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>siganos</h4>
+            <div class="links">
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script
+        src="https://kit.fontawesome.com/81581fb069.js"
+        crossorigin="anonymous"
+    ></script>
+    
+    <script>
+        feather.replace();
+    </script>  
+	<script src="selección-2.js"></script>
+</body>
+</html>
